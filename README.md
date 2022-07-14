@@ -31,7 +31,9 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 <br>
 
-<img src="src/images/Screenshot-mobile.jpg" alt="screenshot versão mobile tela inicial huddle page">
+<p align="center">
+<img width="375" height="800" src="src/images/Screenshot-mobile.jpg" alt="screenshot versão mobile tela inicial huddle page">
+</p>
 
 ---
 
