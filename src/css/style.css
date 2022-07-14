@@ -1,0 +1,123 @@
+body{
+	display: grid;
+	grid-template-areas: "header header"
+											"illustration about"
+											"footer footer";
+	grid-template-columns: repeat(2, 1fr);
+  background-image: url('../images/bg-desktop.svg');
+	background-size: cover;
+	
+	background-color: var(--cor-violeta);
+	max-width: 1440px;
+	padding: 20px;
+	margin: 0 60px;
+}
+
+.header{
+	grid-area: header;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.header img{
+	font-family: var(--font-heading);
+	width: 250px;
+	height: 80px;
+}
+
+.illustration{
+	grid-area: illustration;
+	width: 100%;
+	margin-left: 50px;
+}
+.about{
+	grid-area: about;
+	color: #ffffff;
+	font-family: var(--font-heading);
+	padding: 40px;
+	margin: 0 20px;
+}
+
+.about .title{
+	font-weight: 600;
+	font-size: 40px;
+}
+
+.about .text{
+	font-family: var(--font-body);
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 0.8;
+	margin: 30px 5px;
+	line-height: 25px;
+	padding-bottom: 10px;
+}
+
+.about .btn-register{
+	color: var(--cor-violeta);
+	background-color: #ffffff;
+	font-size: 20px;
+	border-radius: 30px;
+	padding: 15px 70px;
+	box-shadow: 1px 1px 10px rgb(30, 30, 30);
+}
+
+.about .btn-register:hover{
+	color: #ffffff;
+	background-color: var(--cor-magenta);
+	transition: 0.3s ease-in-out;
+}
+
+.footer{
+	grid-area: footer;
+  display: flex;
+	flex-direction: column;
+}
+
+.footer .social{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+}
+
+.footer .social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	color: #ffffff;
+	padding: 12px 13px;
+	border: solid 1px #ffffff;
+	border-radius: 100%;
+}
+
+.footer .social a:hover{
+	color: var(--cor-magenta);
+	border: solid 1px var(--cor-magenta);
+	transition: 0.3s ease-in-out;
+}
+
+.footer .social i{
+	font-size: 20px;
+}
+
+.footer .attribution{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	font-size: 15px;
+	font-family: var(--font-heading);	
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.footer .attribution a{
+	color: #ffffff;
+	font-weight: 600;
+	transition: 0.3s ease-in-out;
+	padding-left: 5px;
+}
+
+.footer .attribution a:hover{
+	color: var(--cor-magenta);
+}
