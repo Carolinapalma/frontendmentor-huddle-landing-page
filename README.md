@@ -83,7 +83,7 @@ display: grid;
 
 ### Acesso a Página
 
-- [GitHub Page]()
+- [GitHub Page](https://carolinapalma.github.io/frontendmentor-huddle-landing-page/)
 
 ---
 
